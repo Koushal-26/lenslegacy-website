@@ -14,10 +14,10 @@ const Navbar = () => {
        
 
         <div className="space-x-6 hidden text-sm md:flex">
-          <Link href="#gallery" className="hover:text-gray-400">Gallery</Link>
+          <Link href="#gallery" className="hover:text-gray-300 hover:scale-105 duration-500">Gallery</Link>
           <Dropdown />
-          <Link href="#about" className="hover:text-gray-400">About</Link>
-          <Link href="#contact" className="hover:text-gray-400">Contact</Link>
+          <Link href="#about" className="hover:text-gray-300 hover:scale-105 duration-500">About</Link>
+          <Link href="#contact" className="hover:text-gray-300 hover:scale-105 duration-500">Contact</Link>
         </div>
       </nav>
     </header>

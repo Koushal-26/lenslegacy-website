@@ -1,4 +1,3 @@
-"use client"
 import React, { useState, useRef } from 'react'
 import Link from 'next/link'
 
@@ -13,7 +12,7 @@ const Dropdown = () => {
    onMouseLeave={() => setOpen(false)}
    className="relative inline-block"
   >
-   <button onClick={() => setOpen(!open)} className='hover:text-gray-400 flex justify-center items-center'
+   <button onClick={() => setOpen(!open)} className='hover:text-gray-300 hover:scale-105 duration-500 flex justify-center items-center'
     type="button"
    >Blogs
     <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" strokeWidth={4}
