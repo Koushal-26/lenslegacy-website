@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import Dropdown from './dropdown'
 import Link from 'next/link'
