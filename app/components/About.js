@@ -7,7 +7,7 @@ const About = () => {
   <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center transform-none">
    <div>
     <Image priority={true}
-    src="/ai.jpg"
+    src="/artificial-intelligence.jpg"
      alt="Portrait of a Standing Robart (AI)"
      width={500}
      height={500}
